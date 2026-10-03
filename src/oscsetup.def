@@ -1,0 +1,9 @@
+LIBRARY oscsetup.dll
+EXPORTS
+    SetupDiGetClassDevsA=My_SetupDiGetClassDevsA
+    SetupDiEnumDeviceInfo=My_SetupDiEnumDeviceInfo
+    SetupDiEnumDeviceInterfaces=My_SetupDiEnumDeviceInterfaces
+    SetupDiGetDeviceInterfaceDetailA=My_SetupDiGetDeviceInterfaceDetailA
+    SetupDiGetDeviceInstanceIdA=My_SetupDiGetDeviceInstanceIdA
+    SetupDiGetDeviceRegistryPropertyA=My_SetupDiGetDeviceRegistryPropertyA
+    SetupDiDestroyDeviceInfoList=My_SetupDiDestroyDeviceInfoList

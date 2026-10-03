@@ -1,0 +1,22 @@
+LIBRARY oscwus.dll
+EXPORTS
+    WinUsb_Initialize=My_WinUsb_Initialize
+    WinUsb_Free=My_WinUsb_Free
+    WinUsb_ReadPipe=My_WinUsb_ReadPipe
+    WinUsb_WritePipe=My_WinUsb_WritePipe
+    WinUsb_ControlTransfer=My_WinUsb_ControlTransfer
+    WinUsb_QueryInterfaceSettings=My_WinUsb_QueryInterfaceSettings
+    WinUsb_QueryPipe=My_WinUsb_QueryPipe
+    WinUsb_QueryDeviceInformation=My_WinUsb_QueryDeviceInformation
+    WinUsb_AbortPipe=My_WinUsb_AbortPipe
+    WinUsb_ResetPipe=My_WinUsb_ResetPipe
+    WinUsb_FlushPipe=My_WinUsb_FlushPipe
+    WinUsb_ResetDevice=My_WinUsb_ResetDevice
+    WinUsb_SetPipePolicy=My_WinUsb_SetPipePolicy
+    WinUsb_GetPipePolicy=My_WinUsb_GetPipePolicy
+    WinUsb_GetAssociatedInterface=My_WinUsb_GetAssociatedInterface
+    WinUsb_GetDescriptor=My_WinUsb_GetDescriptor
+    WinUsb_SetCurrentAlternateSetting=My_WinUsb_SetCurrentAlternateSetting
+    WinUsb_GetCurrentAlternateSetting=My_WinUsb_GetCurrentAlternateSetting
+    WinUsb_GetPowerPolicy=My_WinUsb_GetPowerPolicy
+    WinUsb_SetPowerPolicy=My_WinUsb_SetPowerPolicy
